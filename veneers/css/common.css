@@ -343,7 +343,7 @@ button::-moz-focus-inner {
     }
     .d_types-container .owl-carousel {
         padding: 0 30px;
-        margin: 0 -15px;
+        margin: 30px -15px 0;
         overflow: hidden;
         width: calc(100% + 30px);
     }
