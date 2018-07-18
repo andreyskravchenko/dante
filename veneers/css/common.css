@@ -15,7 +15,6 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    opacity: .93;
 }
 body,
 ul,
@@ -344,6 +343,9 @@ button::-moz-focus-inner {
     }
     .d_types-container .owl-carousel {
         padding: 0 30px;
+        margin: 0 -15px;
+        overflow: hidden;
+        width: calc(100% + 30px);
     }
     .d_types-info {
         margin-top: 15px;
@@ -487,12 +489,14 @@ button::-moz-focus-inner {
 }
 @media (max-width: 600px) {
     .d_process-container .owl-carousel {
-        padding-right: 40px;
+        overflow: hidden;
+        margin: 0 -20px;
+        padding: 0 40px 0 20px;
     }
-    .d_process-item {
+    body .d_process-item {
         position: static;
         width: auto;
-        height: auto;
+        height: auto !important;
         padding: 15px;
         border-width: 1px;
         border-color: transparent !important;
