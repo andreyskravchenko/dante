@@ -343,9 +343,9 @@ button::-moz-focus-inner {
     }
     .d_types-container .owl-carousel {
         padding: 0 30px;
-        xmargin: 0 -15px;
+        margin: 0 -15px;
         overflow: hidden;
-        xwidth: calc(100% + 30px);
+        width: calc(100% + 30px);
     }
     .d_types-info {
         margin-top: 15px;
@@ -490,8 +490,8 @@ button::-moz-focus-inner {
 @media (max-width: 600px) {
     .d_process-container .owl-carousel {
         overflow: hidden;
-        xmargin: 0 -20px;
-        padding: 0 40px 0 20px;
+        margin: 0 -15px;
+        padding: 0 40px 0 15px;
     }
     body .d_process-item {
         position: static;
