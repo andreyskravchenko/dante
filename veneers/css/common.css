@@ -818,7 +818,7 @@ button::-moz-focus-inner {
     padding: 35px 0 0;
     justify-content: center;
 }
-.d_review-list .owl-dot {
+.d_main-container .owl-dot {
     display: block;
     width: 10px;
     height: 10px;
