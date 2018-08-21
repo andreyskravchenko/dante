@@ -813,7 +813,7 @@ button::-moz-focus-inner {
 
 
 /*rev carousel*/
-.d_review-list .owl-dots {
+.d_main-container .owl-dots {
     display: flex;
     padding: 35px 0 0;
     justify-content: center;
@@ -831,7 +831,7 @@ button::-moz-focus-inner {
     opacity: 1;
 }
 @media (max-width: 1024px) {
-    .d_review-list .owl-dots {
+    .d_main-container .owl-dots {
         padding: 0;
         position: relative;
         top: 40px;
