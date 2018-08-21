@@ -342,7 +342,7 @@ button::-moz-focus-inner {
         padding: 15px;
     }
     .d_types-container .owl-carousel {
-        padding: 0 30px;
+        padding: 0 30px 70px;
         margin: 30px -15px 0;
         overflow: hidden;
         width: calc(100% + 30px);
@@ -491,7 +491,7 @@ button::-moz-focus-inner {
     .d_process-container .owl-carousel {
         overflow: hidden;
         margin: 0 -15px;
-        padding: 0 40px 0 15px;
+        padding: 0 40px 25px 15px;
     }
     body .d_process-item {
         position: static;
@@ -829,6 +829,10 @@ button::-moz-focus-inner {
 }
 .d_review-list .owl-dot.active {
     opacity: 1;
+}
+.d_main-container .d_process-list .owl-dots,
+.d_main-container .d_types-items .owl-dots {
+    top: 25px;
 }
 @media (max-width: 1024px) {
     .d_main-container .owl-dots {
