@@ -39,7 +39,10 @@ jQuery(document).ready(function() {
 
     }
 
-
+    jQuery('.d_review-list.owl-carousel').owlCarousel({
+        items:1,
+        margin:15
+    });
 
     jQuery('[data-event="scroll-to"]').click(function() {
         var thisData = jQuery(this).attr('data-link');
